@@ -88,7 +88,7 @@ input {
     height: 71.6rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: flex-end;
 }
 
@@ -99,6 +99,9 @@ input {
 .aperture__description {
     text-align: center;
     margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 .aperture__subtitle {
@@ -121,9 +124,9 @@ input {
 }
 
 .ap__desc{
-    margin-right: -40rem;
     display: flex;
     justify-content: flex-end;
+    margin-right: 7%;
 }
 
 .description__wrap {
@@ -190,7 +193,7 @@ input {
 
 .business__examples {
     display: grid;
-    grid-template: repeat(2, 1fr)/repeat(2, 57.6rem);
+    grid-template: repeat(2, 1fr)/repeat(2, 1fr);
     gap: 1.6rem;
     padding: 0 10%; 
 }
@@ -217,7 +220,6 @@ input {
 .example {
     display: flex;
     align-items: flex-end;
-    width: 57.6rem;
     height: 60rem;
 }
 
@@ -244,7 +246,7 @@ input {
     background-color: #fff;
     border-radius: 1.4rem;
     color: #000;
-    width: 13.3rem;
+    width: 14.3rem;
     align-items: center;
 }
 
@@ -298,7 +300,8 @@ input {
     grid-template-columns: repeat(2, 1fr);
 }
 .gear__content {
-    padding: 17.3rem 10rem 15rem;
+    padding: 17rem 10rem 17rem;
+
 }
 .gear__text {
     max-width: 51.4rem;
@@ -327,7 +330,6 @@ input {
 .gear__picture {
     background: url('../img/gear.png') no-repeat center;
     background-size: cover;
-    height: 55rem;
     display: flex;
     justify-content: flex-end;
     padding-right: 8rem;
@@ -348,7 +350,7 @@ input {
     background-color: #000;
 }
 .clients__wrap {
-    padding: 12rem 12rem 10rem;
+    padding: 12rem 0rem 10rem;
 }
 .clients__text {
     margin-bottom: 4.2rem;
@@ -367,13 +369,29 @@ input {
 }
 .clients_types {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 4.6rem;
 }
 
 .clients_types img{
-    width: 12.8rem;
+    max-width: 12.8rem;
+}
+
+.cl1{
+
+}
+.cl2{
+    
+}
+.cl3{
+    
+}
+.cl4{
+    
+}
+.cl5{
+    
 }
 
 .star {
@@ -387,7 +405,10 @@ input {
 
 .help {
     background-color: #000;
-    padding: 11.3rem 43.3rem 10.8rem;
+    /* padding: 11.3rem 43.3rem 10.8rem; */
+    display: flex;
+    padding-top: 12rem;
+    padding-bottom: 10.8rem;
 }
 .help__wrap {
     max-width: 57rem;
@@ -417,7 +438,7 @@ input {
     background-color: #000;
 }
 .end__wrap {
-    padding: 10rem 13.6rem;
+    padding: 10rem 5.5rem;
     display: flex;
     flex-direction: column;
 }
@@ -462,7 +483,7 @@ input {
     color: #C0C0C0;
 }
 .menu__pages {
-    padding-right: 10rem;
+    padding-right: 1rem;
     font-size: 1.3rem;
     line-height: 154%;
 }
